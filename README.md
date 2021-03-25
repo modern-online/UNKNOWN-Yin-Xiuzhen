@@ -1,7 +1,12 @@
 # UNKNOWN-Yin-Xiuzhen
 Parts of code developed/adapted for an interactive installation by Yin Xiuzhen. The installation is comprised out of several parts, and within the current setting all of them are interdependent and required to run. Other parts of the code can be found in [Fito Segrera's repository](https://github.com/fitosegrera/unknown), whereas assets developed in Unity were made by Miller Klistner and have not been published so far. 
 
+[big screen](https://github.com/modern-online/UNKNOWN-Yin-Xiuzhen/blob/main/images/DSC09959w.jpg)
+
+
 ## 1. Emotion Recognition
+
+[screens](https://github.com/modern-online/UNKNOWN-Yin-Xiuzhen/blob/main/images/DSC09952w.jpg)
 
 The emotion-recognition script in this repository includes adapted code originally cloned from [Multimodal-Emotion-Recognition](https://github.com/maelfabien/Multimodal-Emotion-Recognition) by maelfabien. It has been adapted for OSC communication as well as made headless due to hardware resource constraints. The models trained in the original repository worked for us hence were not further fine-tuned. To run this script please download the models from maelfabien's repository. 
 
@@ -23,6 +28,8 @@ Make sure python development dependencies and pip package manager are installed 
 Finally, if required Tensorflow version is not found, in theory any recent Tensorflow should work, so just put a different version in the requirements file. 
 
 ## 2. Ultimaker API Integration
+
+[sculptures](https://github.com/modern-online/UNKNOWN-Yin-Xiuzhen/blob/main/images/0926w.jpg)
 
 This part of the code will be released after the closure of the exhibition (projected July 2021). The code uses CuraEngine command line interface to automatically slice an .stl 3d file exported by Unity3D to .gcode as part of the installation's process. The slicing settings were customized for the printer in use (Ultimaker S3) and the type of shape that requires to be printed (abstract sculpture printed once-a-day). Once the .gcode file is ready, it is submitted to the 3D printer on a local network thanks to Ultimaker API. 
 
