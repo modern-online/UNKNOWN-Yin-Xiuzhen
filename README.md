@@ -1,7 +1,5 @@
 # UNKNOWN-Yin-Xiuzhen
-Parts of code developed/adapted for an interactive installation by Yin Xiuzhen
-
-The installation is comprised out of several parts, and within the current setting all of them are interdependent and required to run. 
+Parts of code developed/adapted for an interactive installation by Yin Xiuzhen. The installation is comprised out of several parts, and within the current setting all of them are interdependent and required to run. Other parts of the code can be found in [Fito Segrera's repository](https://github.com/fitosegrera/unknown), whereas assets developed in Unity were made by Miller Klistner and have not been published so far. 
 
 ## 1. Emotion Recognition
 
