@@ -14,6 +14,8 @@ Computer vision detects and identifies emotions from a webcam feed. Multi-face d
 
 ### Installation
 
+##### Tested on Python 3.7
+
 It is recommended to set up a Python virtual environment then install from the supplied requirements.txt file. 
 ##### pip install -r requirements.txt
 
