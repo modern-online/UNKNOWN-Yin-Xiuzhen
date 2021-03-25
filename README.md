@@ -8,14 +8,14 @@ The emotion-recognition script in this repository includes adapted code original
 ### Installation
 
 It is recommended to set up a Python virtual environment then install from the supplied requirements.txt file. 
-pip install -r requirements.txt
+##### pip install -r requirements.txt
 
 #### NOTES: 
 
 If installation of dlib fails on Linux, you need to first install cmake:
-sudo apt-get install build-essential cmake
+##### sudo apt-get install build-essential cmake
 
 Make sure python development dependencies and pip package manager are installed too:
-sudo apt-get install python3-dev python3-pip
+##### sudo apt-get install python3-dev python3-pip
 
 Finally, if required Tensorflow version is not found, in theory any recent Tensorflow should work, so just put a different version in the requirements file. 
