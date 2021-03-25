@@ -24,6 +24,6 @@ Finally, if required Tensorflow version is not found, in theory any recent Tenso
 
 ## 2. Ultimaker API Integration
 
-This part of the code will be released after the closure of the exhibition (projected July 2021). The code uses CuraEngine command line interface to automatically slice an .stl 3d file exported by Unity3D to .gcode as part of the installation's process. The slicing settings were customized for the printer in use (Ultimaker S3) and the type of shape that requires to be printed (abstract sculpture printed once-a-day). Once the .gcode file is ready, it is submitted to the Ultimaker within a local network thanks to Ultimaker API. 
+This part of the code will be released after the closure of the exhibition (projected July 2021). The code uses CuraEngine command line interface to automatically slice an .stl 3d file exported by Unity3D to .gcode as part of the installation's process. The slicing settings were customized for the printer in use (Ultimaker S3) and the type of shape that requires to be printed (abstract sculpture printed once-a-day). Once the .gcode file is ready, it is submitted to the 3D printer on a local network thanks to Ultimaker API. 
 
 Therefore it is a fully automated .stl slicer > printer algorithm. 
